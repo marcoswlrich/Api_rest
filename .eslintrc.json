@@ -21,7 +21,8 @@
     ],
     "rules": {
       "prettier/prettier": "error",
-      "no-console":"off"
+      "no-console":"off",
+      "class-methods-use-this":"off"
 	   	// "import/extensions": [
 	    //   "error",
       //   "ignorePackages",
