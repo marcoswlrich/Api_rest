@@ -1,7 +1,7 @@
 import Sequelize, { Model } from 'sequelize';
 import bcryptjs from 'bcryptjs';
 
-export default class Aluno extends Model {
+export default class User extends Model {
   static init(sequelize) {
     super.init(
       {
