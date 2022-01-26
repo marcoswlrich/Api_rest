@@ -10,8 +10,8 @@ export default class User extends Model {
           defaultValue: '',
           validate: {
             len: {
-              args: [3, 100],
-              msg: 'Campo nome deve ter entre 3 e 100 caracteres.',
+              args: [3, 255],
+              msg: 'Campo nome deve ter entre 3 e 255 caracteres',
             },
           },
         },
@@ -23,7 +23,7 @@ export default class User extends Model {
           },
           validate: {
             isEmail: {
-              msg: 'Email inválido.',
+              msg: 'Email inválido',
             },
           },
         },
@@ -37,7 +37,7 @@ export default class User extends Model {
           validate: {
             len: {
               args: [6, 50],
-              msg: 'A senha precisa ter entre 6 e 50 caracteres.',
+              msg: 'A senha precisa ter entre 6 e 50 caracteres',
             },
           },
         },
