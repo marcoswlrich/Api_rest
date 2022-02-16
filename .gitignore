@@ -1,6 +1,7 @@
 node_modules/
 build/
 temp/
+uploads/
 .env
 ormconfig.json
 
